@@ -13,20 +13,17 @@ This project focuses on speed, simplicity, and clean UI, making it perfect for p
 
 ✨ Key Features
 
-🔹 Add New Expenses – Description, amount, category, and date
-🔹 Edit Existing Expenses – Quick inline editing
-🔹 Delete Expenses – With confirmation
-🔹 LocalStorage Saving – Data remains after refresh
-🔹 Category Filtering – View expenses by category
-🔹 Interactive Charts – Pie Chart / Bar Chart using Recharts
-🔹 Responsive UI – Fully mobile friendly
-🔹 Toast Notifications – Real-time alerts
-🔹 Modern UI – TailwindCSS powered styling
+🔹 Add New Expenses – Description, amount, category, and date <br>
+🔹 Edit Existing Expenses – Quick inline editing<br>
+🔹 Delete Expenses – With confirmation<br>
+🔹 LocalStorage Saving – Data remains after refresh<br>
+🔹 Category Filtering – View expenses by category<br>
+🔹 Interactive Charts – Pie Chart / Bar Chart using Recharts<br>
+🔹 Responsive UI – Fully mobile friendly<br>
+🔹 Toast Notifications – Real-time alerts<br>
+🔹 Modern UI – TailwindCSS powered styling<br>
 
 📸 Screenshots
-
-(Add when you take screenshots)
-Example:
 
 ![Dashboard Screenshot](link-here)
 
@@ -57,12 +54,9 @@ budgetnow-expense-tracker/
 
 📂 Key Folders & Files
 
-/context – Global state management (Context API)
-
-/components – Reusable UI components
-
-/utils – Helper functions (formatCurrency, getCategory, etc.)
-
+/context – Global state management (Context API)<br>
+/components – Reusable UI components<br>
+/utils – Helper functions (formatCurrency, getCategory, etc.)<br>
 App.jsx – Main application logic
 
 🏗️ Architecture
@@ -130,20 +124,12 @@ View App:
 
  Responsive UI
 
- Dark Mode
-
- User Authentication
-
- Cloud Database (MongoDB / Firebase)
-
- Mobile App Version
-
 📬 Contact
 
-👨‍💻 Umesh Kumar
-📧 your-email-here
+👨‍💻 Umesh Kumar<br>
+📧 your-email-here<br>
 🌐 GitHub: https://github.com/Umesh590
 
-⭐ Show Some Love!
+⭐ Show Some Love!<br><br>
 
 If you liked this project, please ⭐ star the repository on GitHub!
