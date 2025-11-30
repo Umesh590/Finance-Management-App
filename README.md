@@ -85,8 +85,7 @@ LocalStorage read/write
 
 🛠 Built With
 
-React 18
-
+- React 18
 - Vite 5
 - TailwindCSS 3
 - Context API
@@ -110,20 +109,11 @@ View App:
 
 👉 http://localhost:5173
 
-🛣️ Roadmap
-
- Add / Edit / Delete Expenses
-
- LocalStorage Integration
-
- Pie & Bar Charts
-
- Responsive UI
 
 📬 Contact
 
 👨‍💻 Umesh Kumar<br>
-📧 your-email-here<br>
+📧 Email: [umeshjha7890@gmail.com](mailto:umeshjha7890@gmail.com)<br>
 🌐 GitHub: https://github.com/Umesh590
 
 ⭐ Show Some Love!<br><br>
