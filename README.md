@@ -25,8 +25,7 @@ This project focuses on speed, simplicity, and clean UI, making it perfect for p
 
 📸 Screenshots
 
-![Dashboard Screenshot]<img width="467" height="391" alt="FMS" src="https://github.com/user-attachments/assets/da0fb462-aca4-4fad-b62c-d82a0faa5e8d" />
-
+<img width="839" height="450" alt="FMS2" src="https://github.com/user-attachments/assets/e3e9019d-416b-4376-9390-a8dc20a8511c" />
 
 📁 Project Structure
 budgetnow-expense-tracker/
@@ -88,15 +87,11 @@ LocalStorage read/write
 
 React 18
 
-Vite 5
-
-TailwindCSS 3
-
-Context API
-
-Recharts
-
-React Hot Toast
+- Vite 5
+- TailwindCSS 3
+- Context API
+- Recharts
+- React Hot Toast
 
 ⚙️ Getting Started
 ✔ Prerequisites
