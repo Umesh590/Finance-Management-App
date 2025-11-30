@@ -25,8 +25,8 @@ This project focuses on speed, simplicity, and clean UI, making it perfect for p
 
 📸 Screenshots
 
-![Dashboard Screenshot](<img width="467" height="391" alt="FMS" src="https://github.com/user-attachments/assets/da0fb462-aca4-4fad-b62c-d82a0faa5e8d" />
-)
+![Dashboard Screenshot]<img width="467" height="391" alt="FMS" src="https://github.com/user-attachments/assets/da0fb462-aca4-4fad-b62c-d82a0faa5e8d" />
+
 
 📁 Project Structure
 budgetnow-expense-tracker/
