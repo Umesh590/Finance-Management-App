@@ -1,5 +1,6 @@
-💰 Finance Management Application
----
+# 💰 Finance Management Application 
+
+
 
 ![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)
 ![Status](https://img.shields.io/badge/status-active-brightgreen?style=flat-square)
@@ -13,9 +14,9 @@
 📖 About The Project
 ---
 
-Finance Management Application is a modern, responsive, and user-friendly Expense Tracker Web App built using React, Vite, Context API, and TailwindCSS.
-It allows users to add, edit, delete, filter, and visualize expenses using interactive charts.
-All data is stored in LocalStorage, ensuring persistence even after page refresh.
+**Finance Management Application** is a modern, **responsive, and user-friendly** Expense Tracker Web App built using **React, Vite, Context API, and TailwindCSS**.
+It allows users to **add, edit, delete, filter, and visualize expenses using interactive charts**.
+All data is **stored in LocalStorage**, ensuring persistence even after page refresh.
 
 This project focuses on speed, simplicity, and clean UI, making it perfect for portfolio and real-world use.
 <hr/>
@@ -39,7 +40,7 @@ This project focuses on speed, simplicity, and clean UI, making it perfect for p
 ---
 ### **Main dashboard**
 
-<img width="839" height="450" alt="FMS2" src="https://github.com/user-attachments/assets/e3e9019d-416b-4376-9390-a8dc20a8511c" />
+<img width="100%" height="550" alt="FMS2" src="https://github.com/user-attachments/assets/e3e9019d-416b-4376-9390-a8dc20a8511c" />
 <hr/>
 
 📁 Directory structure
@@ -80,69 +81,73 @@ Directory structure:
 
 📂 Key Folders & Files
 ---
+**/components** – Contains all reusable UI components.  
+**/context** – App state management (Context API).   
+**/pages** – Page-level components.  
+**/utils** – Utility functions.  
+**App.jsx** – Main application component.  
+**main.jsx** – React entry point.
 
-/context – Global state management (Context API)<br>
-/components – Reusable UI components<br>
-/utils – Helper functions (formatCurrency, getCategory, etc.)<br>
-App.jsx – Main application logic
 
 <hr/>
 
 🏗️ Architecture
 ---
+The system follows the **simple client-server architecture**
+- **Frontend (React + Tailwind):** Handles UI, state, and interactions.
+- **Backend API (Local JSON Server at :3000):** Stores and retrieves the data.
+ 
 
-BudgetNow follows a clean component-based architecture:
+```mermaid
+flowchart TD
+    A[👤 User] --> B[💻 React Frontend]
+    B --> C[⚙️ Local API :3000]
+    C --> D[🗄️ Data Storage]
+```
 
-Frontend (React + TailwindCSS)
-
-Handles UI rendering
-
-State managed using Context API
-
-Charts rendered using Recharts
-
-Data stored using LocalStorage API
-
-Core Concepts
-
-useState
-
-useEffect
-
-Context API (Global store)
-
-LocalStorage read/write
 <hr/>
 
 🛠 Built With
 ---
 
-- React 18
-- Vite 5
-- TailwindCSS 3
-- Context API
-- Recharts
-- React Hot Toast
+- **Frontend**: React 18, vite 5, TailwindCSS 3
+- **State Management**: Context API
+- **Styling**: TailwindCSS 3
+
 <hr/>
+
 ⚙️ Getting Started
-✔ Prerequisites
+---
 
-You must have Node.js installed.
+### **Prerequisites**
 
-<hr/>
-✔ Installation
-git clone <your-repo-link>
-cd Finance Management Application
+- Node.js 18+
+- npm / yarn / pnpm
+- Local API server running at `http://localhost:3000`
+
+---
+
+### **Installation**
+
+```bash
+git clone https://github.com/Umesh590/Finance-Management-App.git
+cd Finance-Management-App
 npm install
+```
 <hr/>
  
-✔ Run the Project
+### **Run** 
+```
 npm run dev
-
-View App:
-
-👉 http://localhost:5173
-
+```
+Visit:
+```
+http://localhost:5173
+```
+Backend API should be running at:
+```
+http://localhost:3000
+```
 <hr/>
 
 📬 Contact
@@ -153,6 +158,7 @@ View App:
 
 <hr/>
 
-⭐ Show Some Love!<br><br>
+⭐ **Show Some Love!**
+<br><br>
 
-If you liked this project, please ⭐ star the repository on GitHub!
+If you liked this project, **please ⭐ star the repository on GitHub!**
