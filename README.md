@@ -1,65 +1,95 @@
 💰 Finance Management Application
+---
 
-[License](#license) | [React](https://react.dev/) | [Vite](https://vitejs.dev/) | [TailwindCSS](https://tailwindcss.com/) | [Context API](https://react.dev/learn/passing-data-deeply-with-context)
+![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)
+![Status](https://img.shields.io/badge/status-active-brightgreen?style=flat-square)
+![React](https://img.shields.io/badge/React-18-61DAFB?style=flat-square&logo=react)
+![Vite](https://img.shields.io/badge/Vite-5-646CFF?style=flat-square&logo=vite)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3-38B2AC?style=flat-square&logo=tailwindcss)
+
+<hr/>
 
 
 📖 About The Project
+---
 
 Finance Management Application is a modern, responsive, and user-friendly Expense Tracker Web App built using React, Vite, Context API, and TailwindCSS.
 It allows users to add, edit, delete, filter, and visualize expenses using interactive charts.
 All data is stored in LocalStorage, ensuring persistence even after page refresh.
 
 This project focuses on speed, simplicity, and clean UI, making it perfect for portfolio and real-world use.
+<hr/>
 
 ✨ Key Features
+---
 
-🔹 Add New Expenses – Description, amount, category, and date <br>
-🔹 Edit Existing Expenses – Quick inline editing<br>
-🔹 Delete Expenses – With confirmation<br>
-🔹 LocalStorage Saving – Data remains after refresh<br>
-🔹 Category Filtering – View expenses by category<br>
-🔹 Interactive Charts – Pie Chart / Bar Chart using Recharts<br>
-🔹 Responsive UI – Fully mobile friendly<br>
-🔹 Toast Notifications – Real-time alerts<br>
-🔹 Modern UI – TailwindCSS powered styling<br>
+-  🔸 **Add New Expenses** – Description, amount, category, and date.
+-  ✏️ **Edit Existing Expenses** – Quick inline editing.
+-  🗑️ **Delete Expenses** – With confirmation.
+-  💾 **LocalStorage Saving** – Data remains after refresh.
+-  🏷️ **Category Filtering** – View expenses by category.
+-  📊 **Interactive Charts** – Pie Chart / Bar Chart using Recharts.
+-  📱 **Responsive UI** – Fully mobile friendly.
+-  🔔 **Toast Notifications** – Real-time alerts.
+-  🎨 **Modern UI** – TailwindCSS powered styling.
+
+<hr/>
 
 📸 Screenshots
+---
+### **Main dashboard**
 
 <img width="839" height="450" alt="FMS2" src="https://github.com/user-attachments/assets/e3e9019d-416b-4376-9390-a8dc20a8511c" />
+<hr/>
 
-📁 Project Structure
-budgetnow-expense-tracker/
- ├── README.md
- ├── index.html
- ├── package.json
- ├── postcss.config.js
- ├── tailwind.config.js
- ├── vite.config.js
- └── src/
-     ├── App.css
-     ├── App.jsx
-     ├── index.css
-     ├── main.jsx
-     ├── context/
-     │    └── ExpenseContext.jsx
-     ├── utils/
-     │    └── expenses.js
-     └── components/
-          ├── ExpenseForm.jsx
-          ├── ExpenseList.jsx
-          ├── ExpensePieChart.jsx
-          ├── ExpenseBarChart.jsx
-          ├── Navbar.jsx
-          └── Footer.jsx
+📁 Directory structure
+---
+The Project is organized as follows:
+
+```
+Directory structure:
+└── umesh590-finance-management-app/
+    ├── README.md
+    ├── eslint.config.js
+    ├── index.html
+    ├── package.json
+    ├── vite.config.js
+    └── src/
+        ├── App.jsx
+        ├── index.css
+        ├── main.jsx
+        ├── components/
+        │   ├── Dashboard.jsx
+        │   ├── ExpenseBarChart.jsx
+        │   ├── ExpenseChart.jsx
+        │   ├── ExpenseForm.jsx
+        │   ├── ExpenseList.jsx
+        │   ├── ExpensePieChart.jsx
+        │   └── ExpenseSummary.jsx
+        ├── context/
+        │   └── ExpenseContext.jsx
+        ├── layouts/
+        │   └── DashboardLayout.jsx
+        ├── pages/
+        │   ├── Index.jsx
+        │   └── NotFound.jsx
+        └── utils/
+            └── expenses.js
+```
+<hr/>
 
 📂 Key Folders & Files
+---
 
 /context – Global state management (Context API)<br>
 /components – Reusable UI components<br>
 /utils – Helper functions (formatCurrency, getCategory, etc.)<br>
 App.jsx – Main application logic
 
+<hr/>
+
 🏗️ Architecture
+---
 
 BudgetNow follows a clean component-based architecture:
 
@@ -82,8 +112,10 @@ useEffect
 Context API (Global store)
 
 LocalStorage read/write
+<hr/>
 
 🛠 Built With
+---
 
 - React 18
 - Vite 5
@@ -91,17 +123,19 @@ LocalStorage read/write
 - Context API
 - Recharts
 - React Hot Toast
-
+<hr/>
 ⚙️ Getting Started
 ✔ Prerequisites
 
 You must have Node.js installed.
 
+<hr/>
 ✔ Installation
 git clone <your-repo-link>
 cd Finance Management Application
 npm install
-
+<hr/>
+ 
 ✔ Run the Project
 npm run dev
 
@@ -109,12 +143,15 @@ View App:
 
 👉 http://localhost:5173
 
+<hr/>
 
 📬 Contact
+---
 
 👨‍💻 Umesh Kumar<br>
 📧 Email: [umeshjha7890@gmail.com](mailto:umeshjha7890@gmail.com)<br>
-🌐 GitHub: https://github.com/Umesh590
+
+<hr/>
 
 ⭐ Show Some Love!<br><br>
 
