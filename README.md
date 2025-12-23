@@ -24,23 +24,23 @@ This project focuses on speed, simplicity, and clean UI, making it perfect for p
 ✨ Key Features
 ---
 
--  🔸 **Add New Expenses** – Description, amount, category, and date.
--  ✏️ **Edit Existing Expenses** – Quick inline editing.
--  🗑️ **Delete Expenses** – With confirmation.
--  💾 **LocalStorage Saving** – Data remains after refresh.
--  🏷️ **Category Filtering** – View expenses by category.
--  📊 **Interactive Charts** – Pie Chart / Bar Chart using Recharts.
--  📱 **Responsive UI** – Fully mobile friendly.
--  🔔 **Toast Notifications** – Real-time alerts.
--  🎨 **Modern UI** – TailwindCSS powered styling.
+-  🔸 **Add New Expenses** 
+-  ✏️ **Edit Existing Expenses** 
+-  🗑️ **Delete Expenses** 
+-  💾 **LocalStorage Saving** 
+-  🏷️ **Category Filtering** 
+-  📊 **Interactive Charts** 
+-  📱 **Responsive UI** 
+-  🔔 **Toast Notifications** 
+-  🎨 **Modern UI** 
 
 <hr/>
 
 📸 Screenshots
 ---
 ### **Main dashboard**
+<img width="1536" height="1024" alt="dark image ET" src="https://github.com/user-attachments/assets/772cab30-5a34-43dd-84e7-90fd5ef08747" />
 
-<img width="100%" height="550" alt="FMS2" src="https://github.com/user-attachments/assets/e3e9019d-416b-4376-9390-a8dc20a8511c" />
 <hr/>
 
 📁 Directory structure
